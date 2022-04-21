@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #f1f5fe;
+}
+.intro{
+    text-align: center;
+    position: relative;
+    top:50px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    border:1px solid #ffffff;
+    max-width: 420px;
+    height: 250px;
+    position: relative;
+    top:80px;
+    left:450px;
+    padding:30px;
+    background-color: #ffffff;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.slidecontainer {
+    width: 100%;
+    position: relative;
+    top:50px;
+  }
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    opacity: 1;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 20px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+ .footer{
+     display: flex;
+     margin-top:150px;
+     justify-content: space-between;
+     font-family: 'IBM Plex Sans Arabic', sans-serif;
+ }
+ li{
+     list-style-type: none;
+     line-height: 20px;
+     font-family: 'IBM Plex Sans Arabic', sans-serif;  
+ }
+ .btn{
+     border-radius: 30px;
+     height: 30px;
+     margin-right: 10px;
+     width: 150px;
+     font-family: 'IBM Plex Sans Arabic', sans-serif;
+     color: white;
+     background-color: #293453;
+     margin-top:10px;
+     border:1px solid #293453;
+     box-shadow: 5px 10px;
+ }
+
+

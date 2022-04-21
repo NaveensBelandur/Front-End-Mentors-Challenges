@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Astloch&display=swap');
+
+
+.po {
+    display: inline;
+    font-family: 'Mea Culpa', cursive;
+    position:relative;
+    left:800px;
+    top:380px;
+    font-size: 150px;
+    font-weight:lighter;
+    color:#02f5ee;
+    
+}
+.parallax {
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    min-height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/IMG-20220212-WA0027\ \(1\).jpg');
+}
+.parallax2{
+    min-height: 1300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/IMG-20220212-WA0025\ \(1\).jpg');
+}
+.parallax3{
+    min-height: 1300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/First\ Look\ Poster\ Final\ English.jpg');
+}
+.container{
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    border:1px solid black;
+  }
+
+  #image{
+     width: 100%; 
+     margin-top:-180px;
+  }
+  #image1{
+      max-width: 300px;
+      height:300px;
+      box-sizing: border-box;
+      
+  }
+  ul{
+      text-align: center;
+  }
+ li{
+     display: inline;
+     padding: 10px;
+     color: white;
+     font-family: 'Bahianita', cursive;
+     font-size: 35px;
+     font-weight: normal;
+     margin-bottom: 10px;
+ }
+ li > a{
+    display: inline;
+     padding: 10px;
+     color: white;
+     font-family: 'Bahianita', cursive;
+     font-size: 35px;
+     font-weight: normal;
+     margin-bottom: 10px;
+     text-decoration: none; 
+ }
+ li > a:hover{
+     color:#02f5ee;
+ } 
+ h2{
+     text-align: center;
+ }
+ 
+ #head{
+     background-color:#372d3b;
+ }
+.aboutusgrid-container{
+    display: grid;
+    grid-template-columns: 550px 320px;
+    justify-content: space-evenly;
+    
+}
+.grid-aboutus-item{
+    text-align: justify;
+    padding: 30px;
+}
+
+.aboutusgrid-container-hero{
+    display: grid;
+    grid-template-columns: 300px 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-aboutus-item-hero{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+#director1{
+    text-align: center;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 80px;
+    line-height: 2px;
+    font-weight: normal;
+    color: #02f5ee;
+
+}
+.photo{
+     background-color: #372d3b; 
+    border:1px solid white;
+    width: 100%;
+    min-height: 1200px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap:-25px;
+    row-gap:35px; 
+    padding-left:120px;
+   
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .photo > h3{
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 80px;
+      font-family: 'Mea Culpa', cursive;
+      font-size: 80px;
+      line-height: 2px;
+      font-weight: normal;
+      color: #02f5ee;
+  }
+#imagedir{
+    width:300px;
+    height: 300px;
+}
+.text{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 80px;
+    line-height: 2px;
+    font-weight: normal;
+    color: #02f5ee;
+}
+.para-text{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width:480px){
+    .po{
+        display: inline;
+        font-family: 'Mea Culpa', cursive;
+        position: relative;
+        font-size: 100px;
+        font-weight: lighter;
+        color: #02f5ee;
+        top: 30px;
+        left: 180px;
+    }
+    .parallax1 {
+        min-height: 500px; 
+        min-width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('./images/IMG-20220212-WA0027\ \(1\).jpg');
+    }
+    #director1 {
+        text-align: center;
+        font-family: 'Mea Culpa', cursive;
+        font-size: 35px;
+        font-weight: normal;
+        color: #02f5ee;
+    }
+    .aboutusgrid-container {
+      display: block;
+    }
+    #image1 {
+        max-width:265px;
+        height: 250px;
+        padding-left:40px;
+    }
+.aboutusgrid-container-hero {
+     display: block;    
+}
+#imagedir {
+    width: 250px;
+    height: 250px;
+    padding-left: 60px
+}
+
+
+.photo > h3 {
+    font-size: 40px;
+}
+.grid-container {
+ display: block;
+ padding-left:30px;
+}
+
+
+
+    }
+    @media screen and (min-width: 768px) and (max-width:1024px){
+        .po{
+            display: inline;
+            font-family: 'Mea Culpa', cursive;
+            position: relative;
+            font-size: 100px;
+            font-weight: lighter;
+            color: #02f5ee;
+            top: 120px;
+            left: 350px;;
+        }
+        .aboutusgrid-container-hero {
+            display: grid;
+            grid-template-columns: 400px 320px;
+            justify-content: space-evenly;
+            align-items: center;
+            justify-items: stretch;
+        }
+        .aboutusgrid-container {
+            display: grid;
+            grid-template-columns: 400px 320px;
+            align-content: stretch;
+            justify-content: space-evenly;
+            align-items: center;
+            justify-items: stretch;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: -25px;
+            row-gap: 35px;
+            padding: 20px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1024px){
+    .po{
+        display: inline;
+    font-family: 'Mea Culpa', cursive;
+    position: relative;
+    font-size: 150px;
+    font-weight: lighter;
+    color: #02f5ee;
+    top: 230px;
+    left: 450px;
+    }
+    .aboutusgrid-container {
+        display: grid;
+        grid-template-columns: 550px 320px;
+        justify-content: space-evenly;
+    }
+    }
+
+
+

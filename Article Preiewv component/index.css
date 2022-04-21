@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(237 242 248);
+}
+
+h3{
+    text-align: center;
+    margin-top:50px;
+}
+.container{
+    display: flex;
+    justify-content: center;  
+    margin-top:200px;
+    
+}
+.boxn{
+    flex-basis: 450px;
+    align-items: flex-end;
+    justify-content: center;
+    border:1px solid rgb(255 255 255);
+    background-color: rgb(255 255 255);
+}
+.boxn > p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 30px;   
+}
+
+.boxn > h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-left: 30px;
+    margin-top:10px;
+   
+}

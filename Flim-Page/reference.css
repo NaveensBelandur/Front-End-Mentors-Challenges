@@ -1,0 +1,126 @@
+#heading{
+    border:1px solid red;
+}
+li{
+    display: inline;
+    margin-right: 50px;
+    
+}
+ul{
+    text-align: center;
+    background-color: #d94362;
+}
+body{
+     background-color: #372d3b; 
+}
+
+
+
+/* .parallax {
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    border:1px solid black;
+  }
+
+  #image{
+      max-width: 1330px;
+  }
+
+  #header{
+      border:1px solid red;
+  }
+  ul{
+      text-align: center;
+  }
+ li{
+     display: inline;
+     padding: 30px;
+ } 
+ h2{
+     text-align: center;
+ }
+ 
+ #head{
+     background-color:#d94362;
+ }
+ .aboutFlim{
+     display: flex;
+     gap:50px;
+     margin-left:38px;
+ }
+#hero{
+    border:1px solid black;
+    min-height: 100px;
+    min-width: 400px;
+}
+#heroimg{
+    border:1px solid black;
+    min-height: 100px;
+    min-width: 1500px;
+}
+div > #hero {
+    text-align: justify;
+}
+.aboutFlim1{
+    display: flex;
+    gap:50px;
+    margin-left:38px;
+}
+#directorimg{
+    border:1px solid black;
+    min-height: 100px;
+    min-width: 400px;
+}
+#director{
+    border:1px solid black;
+    min-height: 100px;
+    min-width: 1500px;
+}
+#director > p{
+    text-align: justify;
+}
+#director1{
+    text-align: center;
+}
+.photo{
+    /* background-color: #372d3b; */
+    /* border:1px solid white;
+    min-height: 500px;
+}
+.photo > h3{
+    text-align: center;
+    color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.grid-item{
+    border:1px solid black;
+} */ 
+
+<div class="Aboutus">
+<div class="aboutFlim">
+   <div id="hero" >
+      <p>Deekshith was born in Kundapur in a Bunt family and raised in Bengaluru. He holds a bachelor's degree in LLB from Bangalore University Deekshith Shetty is an indian actor who works in Kannada television and films. Shetty's career was started with theatre plays and got shifted to small screen. His role Arjun in the serial Naagini brought him good recognition and he entered big sreen with K. S. Ashoka's film Dia, which became a blockbuster of the year 2020 with positive responses He rose to fame after he played the leading role in the famous serial Naagini which telecasted on Zee TV. Deekshith played one of the leading roles in the 2020 super hit Kannada film Dia and received huge response.from the audience  </p>
+   </div>
+   <div id="heroimg">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzY4KNQlrkGeTcK9Pto26udUUeoLLtqB0mOA&usqp=CAUs"/>
+   </div>
+</div>
+</div>  <p>Nihal Swami born in shringeri and was moved to bagnlore for education and did his pu in gurukula after finishing his puc his passion towards cinema made him dropped off to studies and he joined the flims as a make up artist and worked under big flims like kgf rajkumar and many more and even got a award for make up team in rajkumar flim and then started to produce its own short flim and now worked as a associate director in dilmare and now working as a director in flim Smile  </p>

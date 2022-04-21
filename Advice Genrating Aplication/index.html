@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advice Genrator</title>
+        <link href="./index.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="loadXMLDoc()">
+        <h3>Advice Genrator</h3>
+        <div class="container">
+        <div class="box">
+            <h4 id="data"></h4>
+            <p id="world"></p>
+            <div id="dd">
+            <button class="box2" onclick="loadXMLDoc()">Advice</button>
+            </div>
+        </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function loadXMLDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       var data = JSON.parse(this.responseText)
+       console.log(data.slip.id)
+       document.getElementById('data').innerHTML = 'Advice' + '#'  + data.slip.id
+       document.getElementById('world').innerHTML = data.slip.advice
+
+       
+    }
+  };
+  xhttp.open("GET", "https://api.adviceslip.com/advice", true);
+  xhttp.send();
+}
+    </script>
+</html>

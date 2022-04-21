@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intreactive</title>
+        <link href="./index.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+       <div class="container" >
+           <div class="text">
+               <h3>How Did We Do ?</h3>
+               <p>Please let us know how we did with your support request.All feedback is appreciated to help us improve our offering!</p>
+                <ul>
+                    <li   value="1" name="rate" id="1" onclick="one()">1</li>
+                    <li   value="2" name='rate' id="2" onclick="two()" >2</li>
+                    <li   value="3" name='rate' id="3" onclick="three()">3</li>
+                    <li   value="4" name='rate' id="4" onclick="four()">4</li>
+                    <li   value="5" name='rate' id="5" onclick="five()">5</li>
+                </ul>
+                <div>
+                    <p id="#review" style="text-align: center;"></p>
+                    <button onclick="submit()">Submit</button>
+                </div>
+           </div>
+
+       </div>
+       <script type="text/javascript">
+        function one (){
+           const n =  document.getElementById('1').value
+           document.getElementById('#review').innerHTML = `Your Rating is ${n}`
+           
+        }
+        function two(){
+            const n = document.getElementById('2').value
+            document.getElementById('#review').innerHTML = `Your Rating is ${n}`
+            
+        }
+        function three(){
+            const n = document.getElementById('3').value
+            document.getElementById('#review').innerHTML = `Your Rating is ${n}`
+            
+        }
+        function four(){
+            const n = document.getElementById('4').value
+            document.getElementById('#review').innerHTML = `Your Rating is ${n}`
+            
+        }
+        function five(){
+            const n = document.getElementById('5').value
+            document.getElementById('#review').innerHTML = `Your Rating is ${n}`
+            
+            
+        } 
+        function submit(){
+           alert('Thanks For Rating')
+           window.location.reload()
+        }
+       </script>
+    </body>
+</html>
